@@ -16,5 +16,10 @@
     "php": ">=5.2.6"
   },
   "minimum-stability": "dev",
-  "target-dir": "PHPExcel"
+  "target-dir": "PHPExcel",
+  "autoload": {
+        "psr-0": {
+            "PHPExcel": "PHPExcel"
+        }
+    }
 }
